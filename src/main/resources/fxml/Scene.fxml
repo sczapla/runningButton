@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.sczapla.runningbutton.FXMLController">
+    <children>
+        <Button fx:id="button" layoutX="126" layoutY="90" onMouseEntered="#onMouseEntered" text="Click Me!" />
+    </children>
+</AnchorPane>
